@@ -1,0 +1,171 @@
+  .team{
+        padding-top: 5rem;
+      }
+.team .team-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.team .team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.team .team-img {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.team .team-img img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.team .team-card:hover .team-img img {
+  transform: scale(1.05);
+}
+
+.team .social-icons {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.team .team-card:hover .social-icons {
+  opacity: 1;
+}
+
+.team .social-icons a {
+  background: #4b49ac;
+  color: #fff;
+  padding: 7px 9px;
+  border-radius: 50%;
+  font-size: 13px;
+  transition: background 0.3s;
+}
+
+.team .social-icons a:hover {
+  background: #6c63ff;
+}
+
+.team .team-info h4 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.team .team-info span {
+  display: block;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.team .team-info p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.team-members{
+    margin-top: 6rem;
+}
+
+
+
+.contact-us {
+  padding: 80px 0;
+}
+
+.contact-cards .contact-card {
+  background: #fff;
+  padding: 25px 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-cards .contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.contact-cards .contact-card i {
+  font-size: 28px;
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+.contact-cards .contact-card h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.contact-cards .contact-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+.contact-form .btn-submit {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form .btn-submit:hover {
+  background: #4b49ac;
+}
+
+.map-responsive {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
